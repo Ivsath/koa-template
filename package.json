@@ -1,0 +1,37 @@
+{
+  "name": "faunadb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint 'src/**/*.{js,ts}' --quiet --fix"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "dotenv": "^8.2.0",
+    "joi": "^17.2.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^6.0.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.4.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.2",
+    "nodemon": "^2.0.5",
+    "prettier": "^2.1.2"
+  }
+}
