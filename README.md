@@ -1,4 +1,4 @@
-# faunadb
+# koa
 
 ```bash
 yarn
